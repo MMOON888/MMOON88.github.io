@@ -1,0 +1,176 @@
+/*Globales*/
+*::after *::before * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Lato';
+    color: #333;
+
+}
+
+.icon-cart {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logoME {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    justify-content: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+h1 {
+    margin: 0 auto;
+    max-width: 1200px;
+    font: family 70px;;
+    color: rgb(150, 120, 179);
+    font-size: 70px;
+    justify-content: center;
+}
+
+/*MAIN*/
+.container-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    justify-content: center;
+}
+
+.item figure {
+    overflow: hidden;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+.info-product {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.info-product button {
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    width: 80%;
+    justify-content: center;
+}
+
+.slider-frame {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+.carousel {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 50%;
+    margin: auto;
+}
+
+.carousel-caption {
+    color: rgb(228, 102, 44)
+}
+
+h5{
+    font-size: 50px; 
+}
+
+.VINCULOS {
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 50%;
+}
+
+.navbar {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;   
+}
+
+.container-icon {
+    margin-right: 10px;
+}
+
+.header-container {
+    width: 100%;
+}
